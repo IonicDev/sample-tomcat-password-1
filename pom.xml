@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--project declaration-->
+    <groupId>com.ionic</groupId>
+    <artifactId>ionic-sdk-tomcat-property</artifactId>
+    <packaging>jar</packaging>
+    <version>0.0.1</version>
+    <name>Ionic Java SDK Sample, Tomcat / PropertySource</name>
+    <description>The Ionic Java SDK provides an easy-to-use interface to the Ionic Platform.</description>
+    <url>https://dev.ionic.com</url>
+    <!--project properties-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <dependency.locations.enabled>false</dependency.locations.enabled>
+    </properties>
+    <!--project dependencies-->
+    <dependencies>
+        <dependency>
+            <groupId>com.ionic</groupId>
+            <artifactId>ionic-sdk</artifactId>
+            <version>2.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-util</artifactId>
+            <version>9.0.19</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <!--project build descriptor-->
+    <build>
+        <plugins/>
+    </build>
+    <reporting>
+        <plugins/>
+    </reporting>
+    <!-- additional metadata -->
+    <licenses>
+        <license>
+            <name>License Agreement for Ionic Resources</name>
+            <url>https://github.com/IonicDev/ionic-java-sdk/blob/master/LICENSE.md</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Ionic Developer Support</name>
+            <email>dev@ionicsecurity.com</email>
+            <organization>Ionic Security</organization>
+            <organizationUrl>https://github.com/IonicDev</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/IonicDev/ionic-java-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com/IonicDev/ionic-java-sdk.git</developerConnection>
+        <url>https://github.com/IonicDev/ionic-java-sdk</url>
+    </scm>
+</project>
